@@ -1,11 +1,13 @@
 "use client";
 
+import { use } from "react";
 import data from "@/app/data";
 import Image from "next/image";
-import CarrouselFavoris from '../../../../components/FavorisCarrousel';
+import CarrouselFavoris from "../../../../components/FavorisCarrousel";
 
-export default function ProductPage({ params }) {
-  const { id } = params;
+export default function ProductPage(props) {
+  const { id } = use(props.params); // ✅ on unwrap le Promise ici
+
   const product = data.products.find((p) => p.id === id);
 
   if (!product) {
@@ -13,7 +15,7 @@ export default function ProductPage({ params }) {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 md:px-8 py-6">
+    <div className="max-w-7xl mx-40 px-4 md:px-8 py-6">
       <div className="flex flex-col md:flex-row gap-10">
         {/* Image */}
         <div className="flex-1 flex justify-center items-start">

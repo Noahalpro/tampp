@@ -2,8 +2,8 @@
 import data from '../src/app/data'
 export default function barreSearchhome () {
     return (
-        <div className="bg-[#fff5f0]  py-2 flex justify-between items-center" >
-    <div className="w-full max-w-md left mx-20 ">
+        <div className="bg-[#fff5f0]  px-60 py-2 flex justify-between items-center" >
+    <div className="w-full max-w-md ">
       <input
         type="search"
         placeholder="Rechercher un produit..."
@@ -12,7 +12,8 @@ export default function barreSearchhome () {
     </div>
 
     
-    
+    <div className='flex gap-10'>
+      
               {data.collections.map((collection) => (
                 <a
                   key={collection.id}
@@ -22,6 +23,8 @@ export default function barreSearchhome () {
                   {collection.namesearch}
                 </a>
               ))}
+
+    </div>
 
      </div>
     );

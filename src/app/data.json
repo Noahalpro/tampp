@@ -20,7 +20,7 @@
     {
       "id": "Jardin",
       "name": "Jardinage & bricolage",
-      "namesearch": "Jardin et Terrasse🌞🌳",
+      "namesearch": "Jardin et Terrasse",
       "products": ["mo1", "mo2", "mo3", "mo4", "mo5"]
     },
     {
@@ -36,9 +36,14 @@
       "name": "Samsung Galaxy Buds FE",
       "price": 59.95,
       "currency": "EUR",
-      "image": "/images/electronique/galaxy_buds.jpg",
+      "image": "https://medias4.ubaldi.com/visuels/7310589/pr_SMR400NZAAXEF-f980e5bb74-43.jpg",
       "url": "https://www.ibood.com/fr/fr/product/123",
-      "description": "Écouteurs Bluetooth avec réduction de bruit active et autonomie de 30h."
+      "description": "Écouteurs Bluetooth avec réduction de bruit active et autonomie de 30h.",
+      "highlights": [
+        "Réduction de bruit active (ANC)",
+        "Jusqu'à 30h d'autonomie",
+        "Confort et maintien sécurisé"
+      ]
     },
     {
       "id": "e2",
@@ -46,9 +51,14 @@
       "name": "Philips 32'' Smart TV",
       "price": 189.99,
       "currency": "EUR",
-      "image": "/images/electronique/philips_tv.jpg",
+      "image": "https://images.philips.com/is/image/philipsconsumer/33c50bd59d08439da420b0f5003a708d?$pnglarge$&wid=960",
       "url": "https://www.ibood.com/fr/fr/product/124",
-      "description": "Téléviseur HD LED 32 pouces avec Android TV et Chromecast intégré."
+      "description": "Téléviseur HD LED 32 pouces avec Android TV et Chromecast intégré.",
+      "highlights": [
+        "Écran HD LED 32 pouces",
+        "Android TV intégré",
+        "Fonctionnalité Chromecast"
+      ]
     },
     {
       "id": "e3",
@@ -56,9 +66,14 @@
       "name": "Logitech MX Master 3S",
       "price": 89.99,
       "currency": "EUR",
-      "image": "/images/electronique/logitech_mx.jpg",
+      "image": "https://m.media-amazon.com/images/I/61jFSvCTfpL.jpg",
       "url": "https://www.ibood.com/fr/fr/product/125",
-      "description": "Souris sans fil ergonomique pour productivité avancée avec défilement ultra-rapide."
+      "description": "Souris sans fil ergonomique pour productivité avancée avec défilement ultra-rapide.",
+      "highlights": [
+        "Conception ergonomique avancée",
+        "Défilement MagSpeed ultra-rapide",
+        "Suivi précis sur toutes surfaces"
+      ]
     },
     {
       "id": "e4",
@@ -66,9 +81,14 @@
       "name": "Anker PowerCore 20000",
       "price": 39.99,
       "currency": "EUR",
-      "image": "/images/electronique/anker_powerbank.jpg",
+      "image": "https://m.media-amazon.com/images/I/61s8hIG07eL._UF1000,1000_QL80_.jpg",
       "url": "https://www.ibood.com/fr/fr/product/126",
-      "description": "Batterie externe haute capacité avec charge rapide USB-C Power Delivery."
+      "description": "Batterie externe haute capacité avec charge rapide USB-C Power Delivery.",
+      "highlights": [
+        "Capacité ultra-élevée (20000 mAh)",
+        "Charge rapide USB-C Power Delivery",
+        "Compacte et fiable"
+      ]
     },
     {
       "id": "e5",
@@ -76,9 +96,14 @@
       "name": "Sony WH-CH520",
       "price": 44.99,
       "currency": "EUR",
-      "image": "/images/electronique/sony_wh.jpg",
+      "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/22-10?$large360ViewerImage$",
       "url": "https://www.ibood.com/fr/fr/product/127",
-      "description": "Casque Bluetooth avec micro, autonomie de 50h et app Sony Headphones Connect."
+      "description": "Casque Bluetooth avec micro, autonomie de 50h et application Sony Headphones Connect.",
+      "highlights": [
+        "Autonomie impressionnante de 50h",
+        "Appels mains-libres clairs",
+        "Personnalisation via Sony Headphones Connect"
+      ]
     },
     {
       "id": "m1",
@@ -86,9 +111,14 @@
       "name": "Aspirateur-balai Shark Anti Hair Wrap",
       "price": 179.99,
       "currency": "EUR",
-      "image": "/images/maison/shark_vacuum.jpg",
+      "image": "https://res.cloudinary.com/sharkninja/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_300,q_auto,w_300/c_pad,h_300,w_300/v1/France/Shark/Products/IZ300EUT/Gallery/IZ300EUT_FR_01?pgw=1",
       "url": "https://www.ibood.com/fr/fr/product/201",
-      "description": "Aspirateur sans fil avec technologie anti-enchevêtrement et double batterie."
+      "description": "Aspirateur sans fil avec technologie anti-enchevêtrement et double batterie.",
+      "highlights": [
+        "Technologie Anti Hair Wrap",
+        "Sans fil et léger",
+        "Idéal pour poils d'animaux"
+      ]
     },
     {
       "id": "m2",
@@ -96,9 +126,14 @@
       "name": "Machine à café Krups Dolce Gusto",
       "price": 49.99,
       "currency": "EUR",
-      "image": "/images/maison/krups_dolce.jpg",
+      "image": "https://m.media-amazon.com/images/I/612cZGn3omL.jpg",
       "url": "https://www.ibood.com/fr/fr/product/202",
-      "description": "Machine à capsules avec sélection manuelle de l’intensité et design compact."
+      "description": "Machine à capsules avec sélection manuelle de l'intensité et design compact.",
+      "highlights": [
+        "Système à capsules Dolce Gusto",
+        "Sélection manuelle de l'intensité",
+        "Design compact et moderne"
+      ]
     },
     {
       "id": "m3",
@@ -106,29 +141,44 @@
       "name": "Mixeur plongeant Braun MultiQuick 5",
       "price": 34.95,
       "currency": "EUR",
-      "image": "/images/maison/braun_mixeur.jpg",
+      "image": "https://m.media-amazon.com/images/I/612cZGn3omL.jpg",
       "url": "https://www.ibood.com/fr/fr/product/203",
-      "description": "Mixeur 1000W avec accessoires pour fouetter, mixer et hacher."
+      "description": "Mixeur 1000W avec accessoires pour fouetter, mixer et hacher.",
+      "highlights": [
+        "Moteur puissant de 1000W",
+        "Polyvalent (fouetter, mixer, hacher)",
+        "Technologie SplashControl"
+      ]
     },
     {
       "id": "m4",
       "collectionId": "maison",
-      "name": "Purificateur d'air Philips Series 800",
+      "name": "Purificateur d'air Philips Série 800",
       "price": 99.99,
       "currency": "EUR",
-      "image": "/images/maison/philips_air.jpg",
+      "image": "https://m.media-amazon.com/images/I/612cZGn3omL.jpg",
       "url": "https://www.ibood.com/fr/fr/product/204",
-      "description": "Filtration HEPA 99,5% et mode automatique intelligent."
+      "description": "Filtration HEPA 99,5% et mode automatique intelligent.",
+      "highlights": [
+        "Filtration HEPA 99,5%",
+        "Mode automatique intelligent",
+        "Purifie l'air en quelques minutes"
+      ]
     },
     {
       "id": "m5",
       "collectionId": "maison",
-      "name": "Poêle antiadhésive Tefal 28 cm",
+      "name": "Poêle antiadhésif Tefal 28 cm",
       "price": 24.99,
       "currency": "EUR",
-      "image": "/images/maison/tefal_poele.jpg",
+      "image": "https://m.media-amazon.com/images/I/510lIN+ia2L._UF1000,1000_QL80_.jpg",
       "url": "https://www.ibood.com/fr/fr/product/205",
-      "description": "Poêle résistante avec Thermo-Signal pour cuisson parfaite."
+      "description": "Poêle résistance avec Thermo-Signal pour une cuisson parfaite.",
+      "highlights": [
+        "Revêtement antiadhésif durable",
+        "Indicateur Thermo-Signal™",
+        "Diamètre polyvalent de 28 cm"
+      ]
     },
     {
       "id": "mo1",
@@ -136,9 +186,14 @@
       "name": "Nike Air Max 270",
       "price": 109.99,
       "currency": "EUR",
-      "image": "/images/mode/nike_airmax.jpg",
+      "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/covmdnim1rkbkbxtm23v/NIKE+AIR+MAX+270+%28GS%29.png",
       "url": "https://www.ibood.com/fr/fr/product/301",
-      "description": "Baskets iconiques avec amorti Air Max et design tendance."
+      "description": "Baskets iconiques avec amorti Air Max et design tendance.",
+      "highlights": [
+        "Amorti Air Max iconique",
+        "Design moderne et tendance",
+        "Confort et style au quotidien"
+      ]
     },
     {
       "id": "mo2",
@@ -146,19 +201,29 @@
       "name": "Montre Tommy Hilfiger",
       "price": 89.99,
       "currency": "EUR",
-      "image": "/images/mode/tommy_montre.jpg",
+      "image": "https://tempka.com/cdn/shop/products/tommy-hilfiger-montre-tommy-hilfiger-damon-homme-en-acier-bleu-1791421-2391133618241.jpg?v=1628126331",
       "url": "https://www.ibood.com/fr/fr/product/302",
-      "description": "Montre en acier inoxydable avec bracelet en cuir."
+      "description": "Montre en acier inoxydable avec bracelet en cuir.",
+      "highlights": [
+        "Design élégant et intemporel",
+        "Boîtier en acier inoxydable",
+        "Bracelet en cuir de qualité"
+      ]
     },
     {
       "id": "mo3",
       "collectionId": "mode",
-      "name": "Sac à dos Eastpak Padded Pak’r",
+      "name": "Sac à dos Eastpak Padded Pak'r",
       "price": 39.95,
       "currency": "EUR",
-      "image": "/images/mode/eastpak.jpg",
+      "image": "https://www.eastpak.com/media/catalog/product/cache/7e86b16e927e7bf256b2e257717508c0/E/K/EK000620_008_1_1.jpg",
       "url": "https://www.ibood.com/fr/fr/product/303",
-      "description": "Sac à dos emblématique avec grand compartiment principal."
+      "description": "Sac à dos emblématique avec grand compartiment principal.",
+      "highlights": [
+        "Emblématique et ultra-résistant",
+        "Grand compartiment principal",
+        "Bretelles rembourrées pour confort"
+      ]
     },
     {
       "id": "mo4",
@@ -166,9 +231,14 @@
       "name": "Polo Lacoste homme classique",
       "price": 64.95,
       "currency": "EUR",
-      "image": "/images/mode/lacoste_polo.jpg",
+      "image": "https://photos6.spartoo.com/photos/160/16026859/16026859_1200_A.jpg",
       "url": "https://www.ibood.com/fr/fr/product/304",
-      "description": "Polo 100% coton piqué avec logo crocodile brodé."
+      "description": "Polo 100% coton piqué avec logo crocodile brodé.",
+      "highlights": [
+        "Coton piqué de qualité supérieure",
+        "Logo crocodile brodé iconique",
+        "Coupe classique et intemporelle"
+      ]
     },
     {
       "id": "mo5",
@@ -176,9 +246,14 @@
       "name": "Lunettes de soleil Ray-Ban",
       "price": 79.99,
       "currency": "EUR",
-      "image": "/images/mode/rayban.jpg",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/a01d8003-ea6f-4304-8f00-ae750170c14e/6a967a9a-f44d-40ba-a9cc-ae75017d4e1d/0RB0707S__901_48__P21__shad__qt.png?impolicy=RB_Product_clone&width=700&bgc=%23f2f2f2",
       "url": "https://www.ibood.com/fr/fr/product/305",
-      "description": "Modèle Wayfarer avec verres anti-UV et monture noire."
+      "description": "Modèle Wayfarer avec lunettes anti-UV et monture noire.",
+      "highlights": [
+        "Modèle Wayfarer iconique",
+        "Protection anti-UV optimale",
+        "Monture résistante et élégante"
+      ]
     },
     {
       "id": "b1",
@@ -186,9 +261,14 @@
       "name": "Oral-B Pro 3 Brosse à dents électrique",
       "price": 49.99,
       "currency": "EUR",
-      "image": "/images/beaute/oralb_pro3.jpg",
+      "image": "https://m.media-amazon.com/images/I/71ZPWwkhjLL.jpg",
       "url": "https://www.ibood.com/fr/fr/product/401",
-      "description": "Technologie 3D, capteur de pression et minuterie intégrée."
+      "description": "Technologie 3D, capteur de pression et minuterie intégrée.",
+      "highlights": [
+        "Technologie de brossage 3D",
+        "Capteur de pression visible",
+        "Minuteur professionnel intégré"
+      ]
     },
     {
       "id": "b2",
@@ -196,9 +276,14 @@
       "name": "Philips Lumea IPL",
       "price": 239.99,
       "currency": "EUR",
-      "image": "/images/beaute/philips_lumea.jpg",
+      "image": "https://m.media-amazon.com/images/I/71fXan3iJCL._UF1000,1000_QL80_.jpg",
       "url": "https://www.ibood.com/fr/fr/product/402",
-      "description": "Épilation semi-définitive par lumière pulsée pour tout le corps."
+      "description": "Épilation semi-définitive par lumière pulsée pour tout le corps.",
+      "highlights": [
+        "Épilation IPL semi-définitive",
+        "Utilisation corps et visage",
+        "Résultats durables dès 3 séances"
+      ]
     },
     {
       "id": "b3",
@@ -206,29 +291,44 @@
       "name": "Sèche-cheveux Remington Ionic",
       "price": 29.99,
       "currency": "EUR",
-      "image": "/images/beaute/remington_dryer.jpg",
+      "image": "https://m.media-amazon.com/images/I/61ZkTScHSEL._UF1000,1000_QL80_.jpg",
       "url": "https://www.ibood.com/fr/fr/product/403",
-      "description": "Technologie ionique pour des cheveux brillants et sans frisottis."
+      "description": "Technologie ionique pour des cheveux brillants et sans frisottis.",
+      "highlights": [
+        "Technologie ionique anti-frisottis",
+        "Cheveux brillants et lisses",
+        "Séchage rapide et efficace"
+      ]
     },
     {
       "id": "b4",
       "collectionId": "beaute",
-      "name": "Crème hydratante L’Oréal Men Expert",
+      "name": "Crème hydratante L'Oréal Men Expert",
       "price": 9.99,
       "currency": "EUR",
-      "image": "/images/beaute/loreal_men.jpg",
+      "image": "https://media.cdnws.com/_i/311030/11681/2096/82/telechargement-1.jpeg",
       "url": "https://www.ibood.com/fr/fr/product/404",
-      "description": "Hydratation 24h pour peau sèche, normale ou sensible."
+      "description": "Hydratation 24h pour peau sèche, normale ou sensible.",
+      "highlights": [
+        "Hydratation intense 24h",
+        "Formule légère et non grasse",
+        "Pour une peau sèche et sensible"
+      ]
     },
     {
       "id": "b5",
       "collectionId": "beaute",
-      "name": "Tondeuse barbe Braun MGK7221",
+      "name": "Tondeuse à barbe Braun MGK7221",
       "price": 59.99,
       "currency": "EUR",
-      "image": "/images/beaute/braun_tondeuse.jpg",
+      "image": "https://cdn.notinoimg.com/social/braun/4210201283355_01-o/all-in-one-trimmer-mgk7221___200604.jpg",
       "url": "https://www.ibood.com/fr/fr/product/405",
-      "description": "Tondeuse multifonction 10-en-1 pour barbe, cheveux et corps."
+      "description": "Tondeuse multifonction 10-en-1 pour barbe, cheveux et corps.",
+      "highlights": [
+        "Multifonction 10-en-1",
+        "13 réglages de longueur",
+        "Autonomie longue durée (100 min)"
+      ]
     }
   ]
 }

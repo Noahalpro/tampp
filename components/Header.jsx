@@ -1,17 +1,29 @@
+
+"use client";
+
 import Image from 'next/image'
 import data from '../src/app/data'
 import logo from '../public/newT.png'
+import Link from 'next/link';
 
-
-export default function header() {
+export default function Header() {
 
   return (
-    <header>
-        <nav className="bg-[#bfd6f4] px-20 py-5 flex justify-between items-center font-bold">
-            <a href="/">
-            
-          <Image src={logo} alt="Description de l’image" width={150}  ></Image>
-            </a>
+    <header className='flex flex-col'>
+      
+        <div className="max-w-full bg-[#250048] py-1 text-white px-60">
+          <ul className="flex gap-15 justify-between font-bold text-xs">
+            <li>✔️Chaque jour les meilleures offres aux meilleurs prix</li>
+            <li>✔️Des nouvelles offres chaque jour</li>
+            <li>✔️Les meilleures offres en Europe depuis plus de 20 ans</li>
+            <li>✔️Communauté active</li>
+          </ul>
+
+        </div>
+        <nav className="bg-[#bfd6f4] px-60 py-5 flex justify-between items-center font-bold">
+            <Link href="/">
+           <Image src={logo} alt="Description de l’image" width={150} />
+          </Link>
 
           {data.collections.map((collection) => (
             <a
