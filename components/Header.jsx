@@ -5,6 +5,9 @@ import Image from 'next/image'
 import data from '../src/app/data'
 import logo from '../public/newT.png'
 import Link from 'next/link';
+import User from '../public/utilisateur.png';
+import Cart from '../public/panierr.png';
+
 
 export default function Header() {
 
@@ -36,11 +39,25 @@ export default function Header() {
           ))}
           <div className='flex gap-2'>
             
-          <button className="border border-none rounded-lg text-gray-700 text-sm px-4 py-2 rounded hover:border-black hover:text-black transition bg-white">
+          <button className="flex gap-2 border border-none rounded-lg text-gray-700 text-sm px-4 py-2 rounded hover:border-black hover:text-black transition bg-white">
+            
   Se connecter
+  <Image src={User} 
+            
+      alt="Utilisateur" 
+      width={20} 
+      height={150} >
+              
+            </Image>
 </button>
           <button className="border border-none rounded-lg text-gray-700 text-sm px-4 py-2 rounded hover:border-black hover:text-black transition bg-white">
-  P
+  <Image src={Cart} 
+            
+      alt="Utilisateur" 
+      width={20} 
+      height={150} >
+              
+            </Image>
 </button>
 
           </div>

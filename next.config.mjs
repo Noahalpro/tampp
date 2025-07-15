@@ -21,7 +21,9 @@ const nextConfig = {
       'photos6.spartoo.com',
       'images2.ray-ban.com',
       'cdn.notinoimg.com',
-      'media.cdnws.com'
+      'media.cdnws.com' ,
+      'www.bpelectro.fr',
+      'fr.shopping.rakuten.com'
     ],
   },
 };

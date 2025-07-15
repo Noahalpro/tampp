@@ -36,7 +36,7 @@
       "name": "Samsung Galaxy Buds FE",
       "price": 59.95,
       "currency": "EUR",
-      "image": "https://medias4.ubaldi.com/visuels/7310589/pr_SMR400NZAAXEF-f980e5bb74-43.jpg",
+      "image": "/bud.png",
       "url": "https://www.ibood.com/fr/fr/product/123",
       "description": "Écouteurs Bluetooth avec réduction de bruit active et autonomie de 30h.",
       "highlights": [
@@ -51,7 +51,7 @@
       "name": "Philips 32'' Smart TV",
       "price": 189.99,
       "currency": "EUR",
-      "image": "https://images.philips.com/is/image/philipsconsumer/33c50bd59d08439da420b0f5003a708d?$pnglarge$&wid=960",
+      "image": "/philips tv.png",
       "url": "https://www.ibood.com/fr/fr/product/124",
       "description": "Téléviseur HD LED 32 pouces avec Android TV et Chromecast intégré.",
       "highlights": [
@@ -66,7 +66,7 @@
       "name": "Logitech MX Master 3S",
       "price": 89.99,
       "currency": "EUR",
-      "image": "https://m.media-amazon.com/images/I/61jFSvCTfpL.jpg",
+      "image": "/souris.png",
       "url": "https://www.ibood.com/fr/fr/product/125",
       "description": "Souris sans fil ergonomique pour productivité avancée avec défilement ultra-rapide.",
       "highlights": [
@@ -81,7 +81,7 @@
       "name": "Anker PowerCore 20000",
       "price": 39.99,
       "currency": "EUR",
-      "image": "https://m.media-amazon.com/images/I/61s8hIG07eL._UF1000,1000_QL80_.jpg",
+      "image": "/anker.png",
       "url": "https://www.ibood.com/fr/fr/product/126",
       "description": "Batterie externe haute capacité avec charge rapide USB-C Power Delivery.",
       "highlights": [
@@ -96,7 +96,7 @@
       "name": "Sony WH-CH520",
       "price": 44.99,
       "currency": "EUR",
-      "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/22-10?$large360ViewerImage$",
+      "image": "/sony.png",
       "url": "https://www.ibood.com/fr/fr/product/127",
       "description": "Casque Bluetooth avec micro, autonomie de 50h et application Sony Headphones Connect.",
       "highlights": [
@@ -126,7 +126,7 @@
       "name": "Machine à café Krups Dolce Gusto",
       "price": 49.99,
       "currency": "EUR",
-      "image": "https://m.media-amazon.com/images/I/612cZGn3omL.jpg",
+      "image": "https://www.bpelectro.fr/bp/4006-large_default/pompe-pour-machine-a-cafe-dolce-gusto-lumio-krups-ms-624339.jpg",
       "url": "https://www.ibood.com/fr/fr/product/202",
       "description": "Machine à capsules avec sélection manuelle de l'intensité et design compact.",
       "highlights": [
@@ -141,7 +141,7 @@
       "name": "Mixeur plongeant Braun MultiQuick 5",
       "price": 34.95,
       "currency": "EUR",
-      "image": "https://m.media-amazon.com/images/I/612cZGn3omL.jpg",
+      "image": "https://fr.shopping.rakuten.com/photo/963684628_L.jpg",
       "url": "https://www.ibood.com/fr/fr/product/203",
       "description": "Mixeur 1000W avec accessoires pour fouetter, mixer et hacher.",
       "highlights": [
