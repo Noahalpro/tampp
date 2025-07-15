@@ -1,0 +1,234 @@
+{
+  "collections": [
+    {
+      "id": "electronique",
+      "name": "Électronique",
+      "products": ["e1", "e2", "e3", "e4", "e5"]
+    },
+    {
+      "id": "maison",
+      "name": "Maison & Cuisine",
+      "namesearch": "Miam miam",
+      "products": ["m1", "m2", "m3", "m4", "m5"]
+    },
+    {
+      "id": "mode",
+      "name": "Mode & Lifestyle",
+      "namesearch": "Vêtements bases",
+      "products": ["mo1", "mo2", "mo3", "mo4", "mo5"]
+    },
+    {
+      "id": "Jardin",
+      "name": "Jardinage & bricolage",
+      "namesearch": "Jardin et Terrasse🌞🌳",
+      "products": ["mo1", "mo2", "mo3", "mo4", "mo5"]
+    },
+    {
+      "id": "beaute",
+      "name": "Beauté & Santé",
+      "products": ["b1", "b2", "b3", "b4", "b5"]
+    }
+  ],
+  "products": [
+    {
+      "id": "e1",
+      "collectionId": "electronique",
+      "name": "Samsung Galaxy Buds FE",
+      "price": 59.95,
+      "currency": "EUR",
+      "image": "/images/electronique/galaxy_buds.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/123",
+      "description": "Écouteurs Bluetooth avec réduction de bruit active et autonomie de 30h."
+    },
+    {
+      "id": "e2",
+      "collectionId": "electronique",
+      "name": "Philips 32'' Smart TV",
+      "price": 189.99,
+      "currency": "EUR",
+      "image": "/images/electronique/philips_tv.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/124",
+      "description": "Téléviseur HD LED 32 pouces avec Android TV et Chromecast intégré."
+    },
+    {
+      "id": "e3",
+      "collectionId": "electronique",
+      "name": "Logitech MX Master 3S",
+      "price": 89.99,
+      "currency": "EUR",
+      "image": "/images/electronique/logitech_mx.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/125",
+      "description": "Souris sans fil ergonomique pour productivité avancée avec défilement ultra-rapide."
+    },
+    {
+      "id": "e4",
+      "collectionId": "electronique",
+      "name": "Anker PowerCore 20000",
+      "price": 39.99,
+      "currency": "EUR",
+      "image": "/images/electronique/anker_powerbank.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/126",
+      "description": "Batterie externe haute capacité avec charge rapide USB-C Power Delivery."
+    },
+    {
+      "id": "e5",
+      "collectionId": "electronique",
+      "name": "Sony WH-CH520",
+      "price": 44.99,
+      "currency": "EUR",
+      "image": "/images/electronique/sony_wh.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/127",
+      "description": "Casque Bluetooth avec micro, autonomie de 50h et app Sony Headphones Connect."
+    },
+    {
+      "id": "m1",
+      "collectionId": "maison",
+      "name": "Aspirateur-balai Shark Anti Hair Wrap",
+      "price": 179.99,
+      "currency": "EUR",
+      "image": "/images/maison/shark_vacuum.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/201",
+      "description": "Aspirateur sans fil avec technologie anti-enchevêtrement et double batterie."
+    },
+    {
+      "id": "m2",
+      "collectionId": "maison",
+      "name": "Machine à café Krups Dolce Gusto",
+      "price": 49.99,
+      "currency": "EUR",
+      "image": "/images/maison/krups_dolce.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/202",
+      "description": "Machine à capsules avec sélection manuelle de l’intensité et design compact."
+    },
+    {
+      "id": "m3",
+      "collectionId": "maison",
+      "name": "Mixeur plongeant Braun MultiQuick 5",
+      "price": 34.95,
+      "currency": "EUR",
+      "image": "/images/maison/braun_mixeur.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/203",
+      "description": "Mixeur 1000W avec accessoires pour fouetter, mixer et hacher."
+    },
+    {
+      "id": "m4",
+      "collectionId": "maison",
+      "name": "Purificateur d'air Philips Series 800",
+      "price": 99.99,
+      "currency": "EUR",
+      "image": "/images/maison/philips_air.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/204",
+      "description": "Filtration HEPA 99,5% et mode automatique intelligent."
+    },
+    {
+      "id": "m5",
+      "collectionId": "maison",
+      "name": "Poêle antiadhésive Tefal 28 cm",
+      "price": 24.99,
+      "currency": "EUR",
+      "image": "/images/maison/tefal_poele.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/205",
+      "description": "Poêle résistante avec Thermo-Signal pour cuisson parfaite."
+    },
+    {
+      "id": "mo1",
+      "collectionId": "mode",
+      "name": "Nike Air Max 270",
+      "price": 109.99,
+      "currency": "EUR",
+      "image": "/images/mode/nike_airmax.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/301",
+      "description": "Baskets iconiques avec amorti Air Max et design tendance."
+    },
+    {
+      "id": "mo2",
+      "collectionId": "mode",
+      "name": "Montre Tommy Hilfiger",
+      "price": 89.99,
+      "currency": "EUR",
+      "image": "/images/mode/tommy_montre.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/302",
+      "description": "Montre en acier inoxydable avec bracelet en cuir."
+    },
+    {
+      "id": "mo3",
+      "collectionId": "mode",
+      "name": "Sac à dos Eastpak Padded Pak’r",
+      "price": 39.95,
+      "currency": "EUR",
+      "image": "/images/mode/eastpak.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/303",
+      "description": "Sac à dos emblématique avec grand compartiment principal."
+    },
+    {
+      "id": "mo4",
+      "collectionId": "mode",
+      "name": "Polo Lacoste homme classique",
+      "price": 64.95,
+      "currency": "EUR",
+      "image": "/images/mode/lacoste_polo.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/304",
+      "description": "Polo 100% coton piqué avec logo crocodile brodé."
+    },
+    {
+      "id": "mo5",
+      "collectionId": "mode",
+      "name": "Lunettes de soleil Ray-Ban",
+      "price": 79.99,
+      "currency": "EUR",
+      "image": "/images/mode/rayban.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/305",
+      "description": "Modèle Wayfarer avec verres anti-UV et monture noire."
+    },
+    {
+      "id": "b1",
+      "collectionId": "beaute",
+      "name": "Oral-B Pro 3 Brosse à dents électrique",
+      "price": 49.99,
+      "currency": "EUR",
+      "image": "/images/beaute/oralb_pro3.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/401",
+      "description": "Technologie 3D, capteur de pression et minuterie intégrée."
+    },
+    {
+      "id": "b2",
+      "collectionId": "beaute",
+      "name": "Philips Lumea IPL",
+      "price": 239.99,
+      "currency": "EUR",
+      "image": "/images/beaute/philips_lumea.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/402",
+      "description": "Épilation semi-définitive par lumière pulsée pour tout le corps."
+    },
+    {
+      "id": "b3",
+      "collectionId": "beaute",
+      "name": "Sèche-cheveux Remington Ionic",
+      "price": 29.99,
+      "currency": "EUR",
+      "image": "/images/beaute/remington_dryer.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/403",
+      "description": "Technologie ionique pour des cheveux brillants et sans frisottis."
+    },
+    {
+      "id": "b4",
+      "collectionId": "beaute",
+      "name": "Crème hydratante L’Oréal Men Expert",
+      "price": 9.99,
+      "currency": "EUR",
+      "image": "/images/beaute/loreal_men.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/404",
+      "description": "Hydratation 24h pour peau sèche, normale ou sensible."
+    },
+    {
+      "id": "b5",
+      "collectionId": "beaute",
+      "name": "Tondeuse barbe Braun MGK7221",
+      "price": 59.99,
+      "currency": "EUR",
+      "image": "/images/beaute/braun_tondeuse.jpg",
+      "url": "https://www.ibood.com/fr/fr/product/405",
+      "description": "Tondeuse multifonction 10-en-1 pour barbe, cheveux et corps."
+    }
+  ]
+}
