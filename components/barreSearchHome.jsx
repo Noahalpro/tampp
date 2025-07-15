@@ -2,7 +2,7 @@
 import data from '../src/app/data'
 export default function barreSearchhome () {
     return (
-        <div className="bg-[#fff5f0]  px-60 py-2 flex justify-between items-center" >
+        <div className="bg-[#fff5f0]  px-30 py-2 flex justify-between items-center" >
     <div className="w-full max-w-md ">
       <input
         type="search"

@@ -138,7 +138,7 @@ function FlashSaleSection({ title, description, imageUrl, collectionId, products
 
 export default function VenteFlash() {
   return (
-    <div className=" mx-40 px-4 py-8 flex flex-col gap-10">
+    <div className=" mx-30 px-4 py-8 flex flex-col gap-10">
         <div>
             
       <h1 className="text-3xl font-extrabold text-[#250048]">Ventes Flash</h1>

@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className='flex flex-col'>
       
-        <div className="max-w-full bg-[#250048] py-1 text-white px-60">
+        <div className="max-w-full bg-[#250048] py-1 text-white px-40">
           <ul className="flex gap-15 justify-between font-bold text-xs">
             <li>✔️Chaque jour les meilleures offres aux meilleurs prix</li>
             <li>✔️Des nouvelles offres chaque jour</li>
@@ -20,7 +20,7 @@ export default function Header() {
           </ul>
 
         </div>
-        <nav className="bg-[#bfd6f4] px-60 py-5 flex justify-between items-center font-bold">
+        <nav className="bg-[#bfd6f4] px-40 py-5 flex justify-between items-center font-bold">
             <Link href="/">
            <Image src={logo} alt="Description de l’image" width={150} />
           </Link>

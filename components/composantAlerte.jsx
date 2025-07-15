@@ -5,7 +5,7 @@ import bellWarning from '../public/bell-warning.png'
 
 export default function AlerteProfil() {
   return (
-    <div className="bg-[#68a8ea] mx-60 rounded-2xl p-6 flex items-center justify-between gap-4">
+    <div className="bg-[#68a8ea] mx-30 rounded-2xl p-6 flex items-center justify-between gap-4">
       {/* Icône notification avec badge */}
       <div className="relative w-44 h-44 flex-shrink-0">
         <div className=" rounded-full w-full h-full flex items-center justify-center">

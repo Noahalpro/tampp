@@ -32,7 +32,7 @@ export default function FavorisCarrousel() {
     totalSteps > 0 ? ((start + 1) / (totalSteps + 1)) * 100 : 100;
 
   return (
-    <div className="my-8 mx-60">
+    <div className="my-8 mx-30">
       <h2 className="text-2xl font-bold text-[#250048] mb-4">
         Vos favoris <span className="text-2xl">😍</span>
       </h2>
